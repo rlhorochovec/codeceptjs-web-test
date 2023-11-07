@@ -12,8 +12,8 @@ exports.config = {
   output: './output',
   helpers: {
     WebDriver: {
-      url: 'https://rlhorochovec.github.io/qa/',
-      browser: 'chrome'
+      url: process.env.BASE_URL,
+      browser: process.env.BROWSER
     }
   },
   include: {
