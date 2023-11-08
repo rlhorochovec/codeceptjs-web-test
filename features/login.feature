@@ -15,7 +15,7 @@ Feature: Login
       | admin   | user   | Usuário e/ou senha incorretos! |
       |         |        | Informe usuário e senha!       |
 
-  @LoginValido    
+  @LoginValido
   Scenario Outline: Login válido
     Given inseri usuário "<usuario>" e senha "<senha>"
     When clicar no botão Entrar
@@ -24,9 +24,3 @@ Feature: Login
       | usuario | senha  | logado        |
       | admin   | admin  | Administrador |
       | user    | user   | Usuário       |
-
-  @LoginFailed
-  Scenario: Login failed
-    Given inseri usuário "user" e senha "user"
-    When clicar no botão Entrar
-    Then apresentará a home do "FALHA PROPOSITAL"
