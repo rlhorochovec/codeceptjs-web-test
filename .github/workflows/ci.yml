@@ -1,8 +1,9 @@
 name: codeceptjs-web-test
+
 on:
   push:
-    branches:
-      - main
+    branches-ignore:
+      - '!main'
 
 jobs:
   build:
