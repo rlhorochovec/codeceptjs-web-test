@@ -1,5 +1,5 @@
 Funcionalidade('login');
 
-Cenário('test something',  ({ Eu }) => {
+Cenário('test something',  ({ I }) => {
 
 });

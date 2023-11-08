@@ -1,6 +1,5 @@
-const { I } = inject();
-// Add in your custom step files
+const {I, HomePage} = inject();
 
-Given('I have a defined step', () => {
-  // TODO: replace with your own step
+Then('apresentará a home do {string}', (logado) => {
+  HomePage.validaHome(logado)
 });

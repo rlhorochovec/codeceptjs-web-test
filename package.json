@@ -2,7 +2,6 @@
   "dependencies": {
     "codeceptjs": "^3.5.7",
     "custom-env": "^2.0.2",
-    "selenium-standalone": "^9.3.0",
-    "webdriverio": "^8.21.0"
+    "playwright": "^1.39.0"
   }
 }
