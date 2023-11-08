@@ -1,5 +1,7 @@
 name: codeceptjs-web-test
-on: [push, pull_request]
+on: 
+  branchs:
+    - main
 
 jobs:
   build:
