@@ -1,6 +1,6 @@
 name: codeceptjs-web-test
 on: 
-  branchs:
+  branches:
     - main
 
 jobs:
