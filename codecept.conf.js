@@ -1,24 +1,55 @@
-const { setHeadlessWhen, setCommonPlugins } = require('@codeceptjs/configure');
-// turn on headless mode when running with HEADLESS=true environment variable
-// export HEADLESS=true && npx codeceptjs run
-setHeadlessWhen(process.env.HEADLESS);
-
-// enable all common plugins https://github.com/codeceptjs/configure#setcommonplugins
-setCommonPlugins();
-
-/** @type {CodeceptJS.MainConfig} */
 exports.config = {
-  tests: './*_test.js',
   output: './output',
   helpers: {
-    WebDriver: {
-      url: 'https://rlhorochovec.github.io/qa/',
-      browser: 'chrome'
+    Playwright: {
+      url: 'https://rlhorochovec.github.io/qa',
+      show: true,
+      browser: 'chromium',
+      video: true
     }
   },
   include: {
-    Eu: './steps_file.js'
+    I: "./steps_file.js",
+    LoginPage: "./pages/login_page.js",
+    HomePage: "./pages/home_page.js"
   },
+  mocha: {},
+  bootstrap: null,
+  timeout: null,
+  teardown: null,
+  hooks: [],
+  gherkin: {
+    features: './features/*.feature',
+    steps: ['./step_definitions/login_steps.js','./step_definitions/home_steps.js']
+  },
+  plugins: {
+    screenshotOnFail: {
+      enabled: true
+    },
+    tryTo: {
+      enabled: true
+    },
+    retryFailedStep: {
+      enabled: false
+    },
+    retryTo: {
+      enabled: true
+    },
+    eachElement: {
+      enabled: true
+    },
+    pauseOnFail: {}
+  },
+  stepTimeout: 0,
+  stepTimeoutOverride: [{
+      pattern: 'wait.*',
+      timeout: 0
+    },
+    {
+      pattern: 'amOnPage',
+      timeout: 0
+    }
+  ],
   name: 'codeceptjs-web-test',
   translation: 'pt-BR'
 }
