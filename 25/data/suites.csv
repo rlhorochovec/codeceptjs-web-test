@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Nov 08 19:14:33 GMT 2023","Wed Nov 08 19:14:41 GMT 2023","8046","","Login","","","","Login inválido {""usuario"":"""",""senha"":""user"",""mensagem"":""Informe o usuário!""} @LoginInvalido",""
+"passed","Wed Nov 08 19:14:33 GMT 2023","Wed Nov 08 19:14:37 GMT 2023","4280","","Login","","","","Login inválido {""usuario"":""admin"",""senha"":"""",""mensagem"":""Informe a senha!""} @LoginInvalido",""
+"passed","Wed Nov 08 19:14:33 GMT 2023","Wed Nov 08 19:14:49 GMT 2023","16860","","Login","","","","Login válido {""usuario"":""admin"",""senha"":""admin"",""logado"":""Administrador""} @LoginValido",""
+"passed","Wed Nov 08 19:14:33 GMT 2023","Wed Nov 08 19:14:51 GMT 2023","18507","","Login","","","","Login válido {""usuario"":""user"",""senha"":""user"",""logado"":""Usuário""} @LoginValido",""
+"passed","Wed Nov 08 19:14:33 GMT 2023","Wed Nov 08 19:14:44 GMT 2023","11677","","Login","","","","Login inválido {""usuario"":""admin"",""senha"":""user"",""mensagem"":""Usuário e/ou senha incorretos!""} @LoginInvalido",""
+"passed","Wed Nov 08 19:14:33 GMT 2023","Wed Nov 08 19:14:48 GMT 2023","15171","","Login","","","","Login inválido {""usuario"":"""",""senha"":"""",""mensagem"":""Informe usuário e senha!""} @LoginInvalido",""
