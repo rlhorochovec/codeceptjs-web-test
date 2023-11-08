@@ -3,7 +3,7 @@
 
 Projeto de automação de testes web utilizando CodeceptJS, Cucumber e Allure Report, executando via GitHub Actions e publicando o relatório da execução no GitHub Pages.
 
-A execução está com o status Failed propositalmente para demonstração do print da tela do cenário que falhou anexado ao relatório publicado.
+A execução está com o status Failing propositalmente para demonstração do print da tela do cenário que falhou anexado ao relatório publicado.
 
 ## Instalação
 Instale codeceptjs-web-test com npm
