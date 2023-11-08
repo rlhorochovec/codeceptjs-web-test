@@ -19,6 +19,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: |
+          allure generate --clean --output allure-results
           npm install
           npx playwright install
           npx codeceptjs run --plugins allure
