@@ -28,12 +28,11 @@ exports.config = {
     },
     allure: {
       enabled: true,
-      outputDir: "./output",
+      outputDir: "./allure-results",
       require: "allure-codeceptjs"
     },
     stepByStepReport: {
       enabled: true,
-      output: "./output"
     },
     tryTo: {
       enabled: true
