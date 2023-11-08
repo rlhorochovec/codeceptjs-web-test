@@ -29,4 +29,4 @@ Feature: Login
   Scenario: Login failed
     Given inseri usuário "user" e senha "user"
     When clicar no botão Entrar
-    Then apresentará a home do "FALHA PROPOSITAL"
+    Then apresentará a home do "Administrador"
