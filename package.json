@@ -1,7 +1,6 @@
 {
   "dependencies": {
     "codeceptjs": "^3.5.7",
-    "custom-env": "^2.0.2",
     "playwright": "^1.39.0"
   }
 }
