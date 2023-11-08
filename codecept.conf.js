@@ -3,9 +3,9 @@ exports.config = {
   helpers: {
     Playwright: {
       url: 'https://rlhorochovec.github.io/qa',
-      show: true,
+      show: false,
       browser: 'chromium',
-      video: true
+      video: false
     }
   },
   include: {
@@ -25,6 +25,15 @@ exports.config = {
   plugins: {
     screenshotOnFail: {
       enabled: true
+    },
+    allure: {
+      enabled: true,
+      outputDir: "./output",
+      require: "allure-codeceptjs"
+    },
+    stepByStepReport: {
+      enabled: true,
+      output: "./output"
     },
     tryTo: {
       enabled: true
