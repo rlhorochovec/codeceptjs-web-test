@@ -5,6 +5,11 @@ Projeto de automação de testes web utilizando CodeceptJS, Cucumber e Allure Re
 
 A execução está com o status Failing propositalmente para demonstração do print da tela do cenário que falhou anexado ao relatório publicado.
 
+## Dependências
+- CodeceptJS: 3.5.7
+- Playwright: 1.39.0
+- Allure CodeceptJS: 2.9.2
+
 ## Instalação
 Instale codeceptjs-web-test com npm
 
@@ -13,11 +18,6 @@ Instale codeceptjs-web-test com npm
   npm install
   npm install playwright
 ```
-    
-## Dependências
-- CodeceptJS: 3.5.7
-- Playwright: 1.39.0
-- Allure CodeceptJS: 2.9.2
 
 ## Rodando os testes
 Para rodar os testes, rode o seguinte comando
