@@ -3,8 +3,6 @@
 
 Projeto de automação de testes web utilizando CodeceptJS, Cucumber e Allure Report, executando via GitHub Actions e publicando o relatório da execução no GitHub Pages.
 
-A execução está com o status Failing propositalmente para demonstração do print da tela do cenário que falhou anexado ao relatório publicado.
-
 ## Dependências
 - CodeceptJS: 3.5.7
 - Playwright: 1.39.0

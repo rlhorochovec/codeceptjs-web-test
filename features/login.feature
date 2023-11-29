@@ -24,9 +24,3 @@ Feature: Login
       | usuario | senha  | logado        |
       | admin   | admin  | Administrador |
       | user    | user   | Usuário       |
-
-  @LoginFailed
-  Scenario: Login failed
-    Given inseri usuário "user" e senha "user"
-    When clicar no botão Entrar
-    Then apresentará a home do "FALHA PROPOSITAL"
