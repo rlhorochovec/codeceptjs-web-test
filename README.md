@@ -14,7 +14,7 @@ Instale codeceptjs-web-test com npm
 ```bash
   cd codeceptjs-web-test
   npm install
-  npm install playwright
+  npx playwright install
 ```
 
 ## Rodando os testes

@@ -1,7 +1,7 @@
 {
   "dependencies": {
-    "codeceptjs": "^3.5.7",
-    "playwright": "^1.39.0",
-    "allure-codeceptjs": "^2.9.2"
+    "allure-codeceptjs": "^2.9.2",
+    "codeceptjs": "^3.4.1",
+    "playwright": "^1.40.1"
   }
 }
