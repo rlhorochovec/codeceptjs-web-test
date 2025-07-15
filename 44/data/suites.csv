@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","8475","Login válido {""usuario"":""admin"",""senha"":""admin"",""logado"":""Administrador""} @LoginValido","","Tue Jul 15 14:44:12 GMT 2025","passed","Tue Jul 15 14:44:20 GMT 2025","","Login","",""
+"","6075","Login inválido {""usuario"":""admin"",""senha"":""user"",""mensagem"":""Usuário e/ou senha incorretos!""} @LoginInvalido","","Tue Jul 15 14:44:12 GMT 2025","passed","Tue Jul 15 14:44:18 GMT 2025","","Login","",""
+"","4892","Login inválido {""usuario"":"""",""senha"":""user"",""mensagem"":""Informe o usuário!""} @LoginInvalido","","Tue Jul 15 14:44:12 GMT 2025","passed","Tue Jul 15 14:44:17 GMT 2025","","Login","",""
+"","3760","Login inválido {""usuario"":""admin"",""senha"":"""",""mensagem"":""Informe a senha!""} @LoginInvalido","","Tue Jul 15 14:44:12 GMT 2025","passed","Tue Jul 15 14:44:16 GMT 2025","","Login","",""
+"","7142","Login inválido {""usuario"":"""",""senha"":"""",""mensagem"":""Informe usuário e senha!""} @LoginInvalido","","Tue Jul 15 14:44:12 GMT 2025","passed","Tue Jul 15 14:44:19 GMT 2025","","Login","",""
+"","9775","Login válido {""usuario"":""user"",""senha"":""user"",""logado"":""Usuário""} @LoginValido","","Tue Jul 15 14:44:12 GMT 2025","passed","Tue Jul 15 14:44:22 GMT 2025","","Login","",""
