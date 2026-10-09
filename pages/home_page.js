@@ -3,7 +3,7 @@ const { I } = inject();
 
 module.exports = {
     text: {
-        titulo: '#h2'
+        titulo: 'xpath = //*/div/div/div/h1'
     },
 
     validaHome(logado) {
