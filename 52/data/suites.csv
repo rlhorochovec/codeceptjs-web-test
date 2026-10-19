@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","2125","Login inválido {""usuario"":""admin"",""senha"":"""",""mensagem"":""Informe a senha!""} @LoginInvalido","","2026-10-19","passed","2026-10-19","","Login","",""
+"","6442","Login inválido {""usuario"":"""",""senha"":"""",""mensagem"":""Informe usuário e senha!""} @LoginInvalido","","2026-10-19","passed","2026-10-19","","Login","",""
+"","3839","Login inválido {""usuario"":"""",""senha"":""user"",""mensagem"":""Informe o usuário!""} @LoginInvalido","","2026-10-19","passed","2026-10-19","","Login","",""
+"","8041","Login válido {""usuario"":""admin"",""senha"":""admin"",""logado"":""Administrador""} @LoginValido","","2026-10-19","passed","2026-10-19","","Login","",""
+"","5190","Login inválido {""usuario"":""admin"",""senha"":""user"",""mensagem"":""Usuário e/ou senha incorretos!""} @LoginInvalido","","2026-10-19","passed","2026-10-19","","Login","",""
+"","9607","Login válido {""usuario"":""user"",""senha"":""user"",""logado"":""Usuário""} @LoginValido","","2026-10-19","passed","2026-10-19","","Login","",""
